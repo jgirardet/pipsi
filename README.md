@@ -56,6 +56,10 @@ $ pipsi install Pygments
 
 ```bash
 $ pipsi install --python /usr/bin/python3.5 hovercraft
+or
+$ pipsi install --python python3.5 hovercraft # shorter
+or
+$ pipsi install --python 3 hovercraft # will install with system's default python 3 version.
 ```
 
 ### Uninstalling packages and their scripts:
