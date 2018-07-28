@@ -46,6 +46,8 @@ Here is a tree view into the directory structure created by pipsi after installi
 
 Compared to `pip install --user` each `PKGNAME` is installed into its own virtualenv, so you don't have to worry about different packages having conflicting dependencies. As long as `~/.local/bin` is on your PATH, you can run any of these scripts directly.
 
+`virtualenv` is used for python 2 and `venv` for python 3.
+
 ### Installing scripts from a package:
 
 ```bash
